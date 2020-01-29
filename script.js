@@ -15,4 +15,10 @@
         onChange: () => console.log('OnChange'),
     });
 
+    const forward = document.getElementById('next');
+    forward.addEventListener('click', () => siema.next());
+
+    const backward = document.getElementById('prev');
+    backward.addEventListener('click', () => siema.prev())
+
 })()
