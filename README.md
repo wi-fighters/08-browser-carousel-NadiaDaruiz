@@ -4,7 +4,7 @@
 
 1. Add arrows for navigation.
 
-1. Write a function that handles each of the navigation behaviours.
+1. Write a function that handles each of the navigation behaviors.
 
 1. **Optional:** Style to your pleasing.
 
