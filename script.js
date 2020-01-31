@@ -21,4 +21,8 @@
     const backward = document.getElementById('prev');
     backward.addEventListener('click', () => siema.prev())
 
+    setInterval(() => {
+        siema.next()
+    }, 5000);
+
 })()

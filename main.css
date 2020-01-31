@@ -5,8 +5,8 @@
 }
 
 body {
-    width: 100vw;
-    max-width: 40rem;
+    height: 100vh;
+    max-width: 30rem;
     margin: 0 auto;
     background-color: rgb(224, 213, 213);
 }
@@ -16,8 +16,9 @@ body {
 }
 
 img { 
-    width: 100%;
-    height: 100vh;
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
 }
 
 .buttons {
@@ -27,8 +28,11 @@ img {
 }
 
 button {
-    width: 5rem;
+    width: 8rem;
     height: 3rem;
     border-radius: 1.5rem;
     background-color: #2c2a2ae7;
+    color: blanchedalmond;
+    font-weight: 800;
+    margin: 1rem;
 }
