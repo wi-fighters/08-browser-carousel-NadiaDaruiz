@@ -16,14 +16,12 @@ body {
 }
 
 img { 
-    width: 500px;
-    height: 750px;
     object-fit: cover;
 }
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -34,5 +32,5 @@ button {
     background-color: #2c2a2ae7;
     color: blanchedalmond;
     font-weight: 800;
-    margin: 1rem;
+    margin: 0 1rem;
 }
