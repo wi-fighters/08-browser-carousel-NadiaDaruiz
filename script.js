@@ -3,7 +3,7 @@
     const siema = new Siema({
         selector: '.carousel',
         duration: 2000,
-        easing: 'ease-in',
+        easing: 'ease-out',
         perPage: 1,
         startIndex: 0,
         draggable: true,
